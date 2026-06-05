@@ -1,34 +1,4 @@
-
-// const Product = ({data, onClick}) => {
-//     const {images, title, price, rating} = data
-
-import StarRating from "./StarRating";
-
-//   return (
-//     <div className="space-y-2 px-2 py-2 border border-gray-300 rounded-md shadow-xl" onClick={onClick}>
-//         <div className="w-70">
-//           <img src={images[0]} alt="product" className="w-full rounded-t-md" />
-//         </div>
-//         <div className="px-1">
-//           <h1 className="text-lg font-semibold">{title}</h1>
-//           <div className="flex justify-between">
-//             <label>${price}</label>
-//             <div>
-//               <i className="ri-star-line"></i>
-//               <i className="ri-star-line"></i>
-//               <i className="ri-star-line"></i>
-//               <i className="ri-star-line"></i>
-//               <i className="ri-star-line"></i>
-//               <label>({rating})</label>
-//             </div>
-//           </div>
-//         </div>
-//     </div>
-//   )
-// }
-
-// export default Product
-
+import StarRating from "./StarRating"
 const Product = ({ data, onClick }) => {
   const { images = [], title, price, rating = 0 } = data;
 
